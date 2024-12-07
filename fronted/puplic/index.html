@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaSeegurke</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="root"></div>
+    <script src="../../electron/preload.js"></script>
+    <script>
+        window.electronAPI.fetchData().then(data => {
+            console.log('Fetched data:', data);
+        }).catch(err => {
+            console.error('Error fetching data:', err);
+        });
+    </script>
+</body>
+</html>
