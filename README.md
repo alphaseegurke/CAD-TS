@@ -21,6 +21,11 @@ Ein modernes Computer-Aided Dispatch (CAD)-System für FiveM, entwickelt mit Typ
 
 Dieses Script funktioniert noch nicht!
 Hier steht sobald es Funktioniert.
+
+Funktioniert?
 - [ ] Ja
 - [x] Nein
 
+# 
+
+© 2024 All rights deserve alphaseegurke
