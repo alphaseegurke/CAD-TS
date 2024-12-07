@@ -20,7 +20,7 @@ Ein modernes Computer-Aided Dispatch (CAD)-System für FiveM, entwickelt mit Typ
 ## WICHTIGE INFORMATION!
 
 Dieses Script funktioniert noch nicht!
-Funktioniert:
+Hier steht sobald es Funktioniert.
 - [ ] Ja
 - [x] Nein
 
