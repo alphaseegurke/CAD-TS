@@ -1,17 +1,17 @@
 import express from 'express';
 import cors from 'cors';
-import { createDatabaseConnection } from './db';
-import cadRoutes from './routes/cadRoutes';
+import { sequelize } from './db';
+import authRoutes from './routes/authRoutes';
+import callRoutes from './routes/callRoutes';
 
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
 app.use(cors());
 app.use(express.json());
-app.use('/api/cad', cadRoutes);
+app.use('/api/auth', authRoutes);
+app.use('/api/calls', callRoutes);
 
-createDatabaseConnection();
+sequelize.sync().then(() => console.log('Database synced!'));
 
-app.listen(PORT, () => {
-    console.log(`CAD API läuft auf http://localhost:${PORT}`);
-});
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));

@@ -5,14 +5,15 @@ let mainWindow;
 
 app.on('ready', () => {
     mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 800,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
             contextIsolation: true,
         },
     });
-    mainWindow.loadFile(path.join(__dirname, './build/index.html'));
+
+    mainWindow.loadFile(path.join(__dirname, './frontend/build/index.html'));
 });
 
 app.on('window-all-closed', () => {
