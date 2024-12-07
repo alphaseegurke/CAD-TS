@@ -3,22 +3,24 @@
     "version": "1.0.0",
     "description": "help me",
     "scripts": {
-      "start": "node package.json"
+        "start": "node package.json"
     },
     "dependencies": {
-      "csvjson": "^4.3.4",
-      "fs": "^0.0.1-security",
-      "mongodb": "^2.2.31"
+        "csvjson": "^4.3.4",
+        "fs": "^0.0.1-security",
+        "mongodb": "^6.11.0"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "electron-builder": "^25.1.8"
+    },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/alphaseegurke"
+        "type": "git",
+        "url": "git+https://github.com/alphaseegurke"
     },
     "author": "alphaseegurke",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/alphaseegurke"
+        "url": "https://github.com/alphaseegurke"
     },
     "homepage": "https://github.com/alphaseegurke"
 }
