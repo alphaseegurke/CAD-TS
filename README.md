@@ -17,6 +17,10 @@ Ein modernes Computer-Aided Dispatch (CAD)-System für FiveM, entwickelt mit Typ
 - **Datenbank**: PostgreSQL mit Sequelize ORM
 - **API**: RESTful API
 
-## Installation
+## WICHTIGE INFORMATION!
 
-1. Repository klonen:
+Dieses Script funktioniert noch nicht!
+Funktioniert:
+- [ ] Ja
+- [x] Nein
+
