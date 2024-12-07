@@ -2,7 +2,8 @@ from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-DATABASE_URL = "sqlite:///database/cad.db"
+# MySQL-Verbindung
+DATABASE_URL = "mysql+pymysql://root:Lukas299@localhost/snailycad"
 
 engine = create_engine(DATABASE_URL)
 Base = declarative_base()
