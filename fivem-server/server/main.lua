@@ -1,5 +1,5 @@
 RegisterServerEvent('cad:createCall')
 AddEventHandler('cad:createCall', function(data)
-    print('Neue Anfrage empfangen: ' .. data.description)
-    -- Hier könnte man die Daten in die Datenbank einfügen
+    print('Neuer Einsatz: ' .. data.description)
+    -- Sende die Daten an die Backend-API
 end)
